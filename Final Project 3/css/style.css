@@ -1,0 +1,115 @@
+/*importing stylesheet*/
+@import "buildingsites.css";
+/*background image*/
+body {
+  background-image: url(sam_backdrop.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+  z-index: -1;
+  font-family:Brandon Grotesque;
+  text-transform: uppercase;
+  color:yellow;
+  text-align: center;
+}
+/*nav bar*/
+/*sam stapleton headline*/
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  color:yellow;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+h1 a {
+  color:yellow;
+  text-decoration:none;
+}
+h1 a.manipulation:hover {
+  color:white;
+}
+/*four navigation options*/
+nav ul li a:active {
+  color:white;
+}
+nav ul {
+  list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li a {
+  font-size:12pt;
+  float:left;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+  color:yellow;
+}
+/* Change the link color on hover */
+nav ul li a.underline:link {
+  color:yellow;
+  text-decoration:none;
+}
+nav ul li a.underline:active {
+  color:white;
+}
+nav ul li a.underline:hover {
+  text-decoration:underline;
+  color:white;
+}
+/*h1 a.manipulation:hover, h1 a.manipulation:active, {
+  text-decoration:underline;*/
+}
+/*main body*/
+#container {
+  margin-top: 80px;
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+div ul li a:link {
+  color: yellow;
+  text-decoration: none;
+}
+div ul {
+  list-style: none;
+  font-size:3.5em;
+}
+/* Change the link background image on hover or bind click (hover) event?*/
+/*see within building sites*/
+
+/*sellers buyer tenants landlords profile*/
+#body-container {
+  padding-left: 100px;
+  padding-right:100px;
+}
+.body-copy {
+  font-weight: lighter;
+  font-size:20pt;
+}
+.award {
+  font-size:16pt;
+  color:white;
+}
+/*footer*/
+p a:link {
+  text-decoration: none;
+  color:yellow;
+}
+
+p {
+  text-transform:none;
+}
+/*map*/
+#map {
+  width:500px;
+  height:500px;
+  border:black solid 2px;
+  padding-bottom: 10px;
+  margin-left: 460px;
+}
+/*footer*/
+footer {
+  bottom:10px;
+}
